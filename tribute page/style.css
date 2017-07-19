@@ -1,0 +1,43 @@
+body{
+  font-family: serif;
+}
+header{
+  text-align: center;
+  padding: 40px;
+  background-color: #eee;
+}
+.name{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.img-content{
+  text-align: center;
+  background-color: white;
+
+}
+.head{
+  text-align: center;
+}
+.content{
+    background-color: #eee;
+}
+li{
+  padding: 5px;
+}
+footer{
+  text-align: center;
+    background-color: #eee;
+}
+
+
+@media (min-width: 320px) {
+
+  img{
+    width: 100%;
+  }
+  .content{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
